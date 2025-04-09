@@ -1,5 +1,5 @@
 window.onload = function () {
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbwq_WFaXcMVY-blobYCANmAGW6Ln8k_-z03AfxaOXM4JLoX0EY9PkmWX07mwCt6aE28/exec";
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbwFBrMG0ftDn7gWV6gPy8etAG6yehUvQbQs1wpzbNKVXy9tIn80W0l2GC9XrujzMEMs/exec";
   
   async function fetchComments() {
     const res = await fetch(scriptUrl);
